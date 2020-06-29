@@ -17,7 +17,7 @@ gulp.task('js', function() {
         .pipe(browserSync.stream());
 });
 
-//Static Server + watching scss/html files
+////Static Server + watching scss/html files
 gulp.task('serve', gulp.series('sass', function() {
 
     browserSync.init({
